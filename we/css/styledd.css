@@ -84,7 +84,8 @@ main{
     top: -355px;
 		right: -70px;
     text-shadow: #ddd 1px 1px 5px;
-    color: #5f3ba1d3;
+    /* color: #5f3ba1d3; */
+		color: red;
 		z-index: -1;
 		transform: rotate(-33deg);
 }
