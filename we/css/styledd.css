@@ -261,3 +261,27 @@ footer{
 			transform: rotateY(360deg);
 	}
 }
+
+@media (max-width: 768px) {
+	*{
+		padding: 0;
+		margin: 0;
+		display: block;
+	}
+	#corazon{
+		color: #5f3ba1d3;
+	}
+	/* Estilos para pantallas de celulares */
+	.contenedor {
+			display: flex;
+			flex-direction: column;
+			max-width: none;
+			min-width: none;
+	}
+
+	/* Otros estilos específicos para móviles */
+	body {
+			width: 100%;
+			font-size: 14px; /* Cambiar el tamaño de la fuente */
+	}
+}
